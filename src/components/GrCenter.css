@@ -1,0 +1,11 @@
+.homeblock {
+  font-size: large;
+  display: grid;
+  grid-template-columns: 30% auto 30%;
+  object-fit: cover;
+}
+
+.magentaText {
+  color: #f200ff;
+  text-align: left;
+}

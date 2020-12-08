@@ -1,0 +1,45 @@
+.sc-chat-window {
+  width: 900px;
+
+  position: inherit;
+}
+.sc-header {
+  display: none;
+  opacity: 0;
+}
+
+.sc-message {
+  width: 95%;
+}
+.sc-user-input--text {
+  width: 730px;
+}
+.conteiner {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+.sc-launcher {
+  display: none;
+  opacity: 0;
+}
+.sc-user-input--file-icon-wrapper {
+  display: none;
+  opacity: 0;
+}
+.sc-header--close-button {
+  display: none;
+  opacity: 0;
+}
+.sc-message--avatar {
+  display: none;
+  opacity: 0;
+}
+.sc-header--img {
+  width: 40px;
+  height: 40px;
+}
+.sc-message-list {
+  height: 100vh;
+}

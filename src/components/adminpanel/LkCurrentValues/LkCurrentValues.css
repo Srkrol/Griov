@@ -1,0 +1,29 @@
+.lkcurval {
+  display: grid;
+  grid-template-areas:
+    "i h v"
+    "i d v";
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: lavender;
+}
+
+.lkicon {
+  grid-area: i;
+  background-color: brown;
+}
+
+.lkhead {
+  grid-area: h;
+  background-color: aquamarine;
+}
+
+.lkdata {
+  grid-area: d;
+  background-color: aqua;
+}
+
+.lkvalue {
+  grid-area: v;
+  background-color: greenyellow;
+}

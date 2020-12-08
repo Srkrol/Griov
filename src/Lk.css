@@ -1,0 +1,26 @@
+.lkmain {
+  display: grid;
+  grid-template-areas:
+    "s h"
+    "s c";
+  grid-template-rows: 70px 1fr;
+}
+
+.lkheader {
+  grid-area: h;
+  background-color: aquamarine;
+}
+
+.lkcontent {
+  grid-area: c;
+  display: grid;
+  grid-gap: 3px;
+  padding: 10px;
+
+  background-color: lightcyan;
+}
+.lkcontent_conteiner {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
